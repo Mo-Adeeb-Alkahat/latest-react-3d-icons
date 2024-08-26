@@ -4,7 +4,11 @@
     <img src="https://i.imgur.com/KKT0e2S.png" width="800"></img>
 </div>
 
+this is an updated version from the original package to work in new three.js versions
+
 A simple and easy-to-use library for adding 3d icons into any React project.
+
+updated by [Mo-Adeeb-Alkahat (https://github.com/Mo-Adeeb-Alkahat)][Mo-Adeeb-Alkahat]
 
 ## Example
 
