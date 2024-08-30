@@ -4,10 +4,9 @@
     <img src="https://i.imgur.com/KKT0e2S.png" width="800"></img>
 </div>
 
-this is an updated version from the original package to work in new three.js versions
-
 A simple and easy-to-use library for adding 3d icons into any React project.
 
+this is an updated version from the original package to work in new three.js versions
 updated by [Mo-Adeeb-Alkahat](https://github.com/Mo-Adeeb-Alkahat)
 
 ## Example
@@ -23,7 +22,7 @@ ThreeJS and React Three Fiber are expected to already be installed in the projec
 ```sh
 npm install three @react-three/fiber
 
-npm install react-3d-icons
+npm install latest-react-3d-icons
 ```
 
 ## How to use
@@ -31,13 +30,13 @@ npm install react-3d-icons
 Import the Icon element:
 
 ```javascript
-import { Icon } from "react-3d-icons";
+import { Icon } from "latest-react-3d-icons";
 ```
 
 Import icon(s) you would like to use (full list below):
 
 ```javascript
-import { twitter, github } from "react-3d-icons";
+import { twitter, github } from "latest-react-3d-icons";
 ```
 
 Add the Icon element and specify your icon as well as any other parameters.  
@@ -61,7 +60,7 @@ Voila! Your icon is now display and can be treated as any other image or text el
 You can pass any url into the 'link' property of the Icon element, and clicking on the icon will open that link in a new tab.
 
 ```javascript
-<Icon file={npm} link='https://www.npmjs.com/package/react-3d-icons' />
+<Icon file={npm} link="https://www.npmjs.com/package/latest-react-3d-icons" />
 ```
 
 ## Icons
@@ -71,9 +70,9 @@ The import names are lowercase, without spaces, and numbers & periods have been 
 (Ex: Twitter -> twitter, Google Maps -> googlemaps, About.me -> aboutdotme, 1Password -> onepassword)
 
 ```javascript
-import { twitter } from "react-3d-icons";
+import { twitter } from "latest-react-3d-icons";
 
-<Icon file='mylogo' />;
+<Icon file="mylogo" />;
 ```
 
 Additionally, you can import your own SVGs, and pass references to them into the 'file' property.
@@ -83,7 +82,7 @@ React Example:
 ```javascript
 import { mylogo } from "./icons/logo.svg";
 
-<Icon file='mylogo' />;
+<Icon file="mylogo" />;
 ```
 
 ## Customization
@@ -104,7 +103,3 @@ The Icon component comes with properties which you can customize to change how y
 | rotation        | An array of the X, Y, and Z rotation of your icon. Unlike ThreeJS, which uses radian rotation, this uses "normal" degree rotation (Ex: 360 degrees is a full turn)                                        | array                                               | [0, 0, 0]     |           |
 | spin            | Set to true to make your icon spin in a circle, or set it to a number and increase or decrease it to change the speed of rotation.                                                                        | number OR boolean                                   | 0             |           |
 | link            | If specified, the link that will be opened upon clicking on the icon.                                                                                                                                     | string                                              | _undefined_   |           |
-
-## Issues
-
-This is a very new project, so obviously it is not perfect yet. If you have issues or feature requests you can email me at logan@beebl.es and I will do my best to help you.
