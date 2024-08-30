@@ -6,7 +6,7 @@
 
 A simple and easy-to-use library for adding 3d icons into any React project.
 
-this is an updated version from the original package to work in new three.js versions
+this is an updated version from [the original package](https://github.com/beebls/react-3d-icons) to work in new three.js versions
 updated by [Mo-Adeeb-Alkahat](https://github.com/Mo-Adeeb-Alkahat)
 
 ## Example

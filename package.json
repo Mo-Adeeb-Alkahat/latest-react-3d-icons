@@ -1,7 +1,7 @@
 {
   "name": "latest-react-3d-icons",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "files": [
     "dist"
   ],
@@ -22,6 +22,8 @@
   "keywords": [
     "latest-react-3d-icons",
     "react-3d-icons",
+    "new-react-3d-icons",
+    "version-react-3d-icons",
     "social-icons",
     "links",
     "social-links",
@@ -51,5 +53,4 @@
     "vite": "^5.4.2",
     "@vitejs/plugin-react": "^4.3.1"
   }
-  
 }
